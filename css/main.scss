@@ -1,0 +1,130 @@
+main .mainWrapper {
+    // border: 1px solid white;;
+    margin-top: 100px;
+    
+    h4 {
+        margin-left: 38px;
+        margin-bottom: 10px;
+        color: white;
+        line-height: 40px;
+        font-weight: 400;
+        font-size: 20px;
+        width: 400px;
+
+        .formatted {
+            color: #404EED;
+            font-weight: 600;
+        }
+
+
+    }
+
+    .joinButton {
+        background-color: #404EED;
+        padding: 20px 35px;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        margin-left: 38px;
+        transition: all .5s;
+    }
+
+    .joinButton:hover {
+        background-color: #5462ff;
+        color: #2C2F33;
+    }
+
+}
+
+.sectionWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+
+    .communitySection {
+        flex: 1;
+        text-align: center;
+        color: white;
+        margin-right: 10px;
+
+        .heading {
+            // border: 1px solid white;
+            padding: 1px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h4 {
+            background-color: #404EED;
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 3px 2px 20px .1px black;
+            padding: 10px;
+        }
+        
+        h4:hover {
+            box-shadow: 3px 2px 20px 10px black;
+        }
+        .paragraph {
+            background-color: #2C2F33;
+            border-radius: 20px;
+            min-height: 400px;
+            max-height: 420px;
+
+            p {
+                position: relative;
+                top: 25px;
+                margin: 0;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .AdvertisementSection {
+        flex: 1;
+        text-align: center;
+        margin-left: 10px;
+        color: white;
+
+        .heading {
+            // border: 1px solid white;
+            padding: 1px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+
+        h4 {
+            background-color: #404EED;
+            width: 300px;
+            border-radius: 20px;
+            padding: 10px;
+            box-shadow: 3px 2px 20px .1px black;
+        }
+        h4:hover {
+            box-shadow: 3px 2px 20px 10px black;
+        }
+
+        .paragraph {
+            background-color: #2C2F33;
+            border-radius: 20px;
+            min-height: 400px;
+            max-height: 600px;
+
+            p {
+                position: relative;
+                top: 25px;
+                margin: 0;
+                line-height: 30px;
+            }
+        }
+    }
+
+    hr {
+        height: 300px;
+        margin: 125px 30px;
+    }
+}
