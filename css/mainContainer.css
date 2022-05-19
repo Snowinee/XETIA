@@ -1,0 +1,32 @@
+main .mainContainer {
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+main .mainContainer h4 {
+  color: white;
+  font-size: 44px;
+  width: 800px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 55px;
+}
+
+main .mainContainer .format {
+  color: #404EED;
+  font-weight: 700;
+}
+
+main .mainContainer .joinUs {
+  color: #23272A;
+  background-color: #404EED;
+  padding: 25px 45px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  -webkit-filter: drop-shadow(5px 9px 28px rgba(0, 0, 0, 0.67));
+          filter: drop-shadow(5px 9px 28px rgba(0, 0, 0, 0.67));
+}
+/*# sourceMappingURL=mainContainer.css.map */
