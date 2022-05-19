@@ -88,9 +88,9 @@ main .mainWrapper .joinButton:hover {
 
 .sectionWrapper .communitySection .paragraph p {
   position: relative;
-  top: 25px;
+  top: 30px;
   margin: 0;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 .sectionWrapper .AdvertisementSection {
@@ -135,9 +135,9 @@ main .mainWrapper .joinButton:hover {
 
 .sectionWrapper .AdvertisementSection .paragraph p {
   position: relative;
-  top: 25px;
+  top: 30px;
   margin: 0;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 .sectionWrapper hr {
