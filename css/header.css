@@ -6,11 +6,22 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 40px;
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
 }
 
 .logoWrapper {
-  margin: 0 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .logoWrapper img {
@@ -21,6 +32,7 @@ header {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  justify-self: flex-end;
   text-align: center;
   margin-left: 300px;
 }

@@ -1,11 +1,16 @@
 header {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
 }
 
 .logoWrapper {
-    margin: 0 40px;
+    flex: 1;
 
         img {
             max-width: 100px;
@@ -14,6 +19,7 @@ header {
 
 .navWrapper {
     flex: 1;
+    justify-self: flex-end;
     text-align: center;
     margin-left: 300px;
 
