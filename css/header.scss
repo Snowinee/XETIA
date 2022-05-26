@@ -1,0 +1,42 @@
+header {
+    // background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .logoWrapper {
+        max-width: 100px;
+        // background-color: red;    
+        
+        img {
+            width: 100%;    /* Makes logo fit container */
+        }
+    }
+
+    .navWrapper {
+
+        ul {
+
+            li {
+                display: inline-block;
+                margin: 0 25px;
+                
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 32px;
+                    font-weight: 400;
+                    transition: all .3s;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                    color: #404EED;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}

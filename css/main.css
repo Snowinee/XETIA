@@ -1,0 +1,148 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.mainWrapper {
+  text-align: center;
+  margin: 60px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainWrapper h4 {
+  margin-bottom: 10px;
+  color: white;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  font-weight: 400;
+  max-width: 550px;
+}
+
+.mainWrapper h4 .formatted {
+  color: #404EED;
+  font-weight: 800;
+}
+
+.mainWrapper .joinButton {
+  background-color: #404EED;
+  padding: 20px 45px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  margin: 10px auto;
+  max-width: 250px;
+  border-radius: 5px;
+  color: white;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.mainWrapper .joinButton:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 30px 5px #010747;
+          box-shadow: 1px 1px 30px 5px #010747;
+  color: #404EED;
+}
+
+.sectionWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sectionWrapper .communitySection, .sectionWrapper .AdvertisementSection {
+  text-align: center;
+  width: 700px;
+  color: white;
+  margin: 100px auto 0 auto;
+}
+
+.sectionWrapper .communitySection .heading, .sectionWrapper .AdvertisementSection .heading {
+  padding: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionWrapper .communitySection h4, .sectionWrapper .AdvertisementSection h4 {
+  background-color: #404EED;
+  max-width: 100%;
+  border-radius: 30px;
+  -webkit-box-shadow: 3px 2px 20px .1px black;
+          box-shadow: 3px 2px 20px .1px black;
+  padding: 20px 30px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sectionWrapper .communitySection h4:hover, .sectionWrapper .AdvertisementSection h4:hover {
+  -webkit-box-shadow: 3px 2px 30px 10px black;
+          box-shadow: 3px 2px 30px 10px black;
+}
+
+.sectionWrapper .communitySection .paragraph, .sectionWrapper .AdvertisementSection .paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 20px;
+  background-color: #2C2F33;
+  border-radius: 60px;
+  max-height: 100%;
+}
+
+.sectionWrapper .communitySection .paragraph .paragraphWrapper, .sectionWrapper .AdvertisementSection .paragraph .paragraphWrapper {
+  margin: 20px 0;
+}
+
+.sectionWrapper .AdvertisementSection {
+  margin: 60px auto;
+  height: 500px;
+}
+
+.sectionWrapper .AdvertisementSection .paragraph {
+  height: 350px;
+}
+
+@media (max-width: 800px) {
+  .sectionWrapper {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .AdvertisementSection {
+    margin-top: -160px;
+  }
+  hr {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=main.css.map */

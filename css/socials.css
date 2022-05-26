@@ -1,0 +1,21 @@
+.socials {
+  height: 110vh;
+  background-image: url(/images/socials.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.socials .socialsWrapper h4 {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.socials .socialsWrapper h4:hover {
+  color: #404EED;
+}
+/*# sourceMappingURL=socials.css.map */

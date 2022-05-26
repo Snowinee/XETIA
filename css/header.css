@@ -1,0 +1,41 @@
+header {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logoWrapper {
+  max-width: 100px;
+}
+
+header .logoWrapper img {
+  width: 100%;
+  /* Makes logo fit container */
+}
+
+header .navWrapper ul li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+header .navWrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+header .navWrapper ul li a:hover {
+  text-decoration: none;
+  color: #404EED;
+  font-size: 32px;
+}
+/*# sourceMappingURL=header.css.map */

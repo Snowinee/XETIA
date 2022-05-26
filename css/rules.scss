@@ -1,0 +1,50 @@
+.rules {
+    background-color: red;
+    width: 100%;
+    margin: 0;
+    background-image: url(/images/Rules.png);
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .rulesWrapper {
+
+        h4 {
+            font-size: 80px;
+            color: white;
+            text-align: center;
+            margin: 60px 0 60px 0;
+            transition: all .3s;
+        }
+
+        h4:hover {
+            color: #404EED;
+        }
+
+        .ruleList {
+            font-size: 16px;
+            color: white;
+            line-height: 18px;
+            text-align: center;
+            background-color: rgba(35, 39, 42, 0.8);
+            padding: 20px;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+
+        p {
+            transition: all .3s;
+        }
+
+        p:hover {
+            color: #aa7dff;
+            font-size: 18px;
+        }
+
+        .formatted {
+            font-weight: 700;
+        }
+    }
+}
