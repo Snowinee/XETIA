@@ -61,6 +61,10 @@ main {
   color: #404EED;
 }
 
+.mainWrapper .joinButton:active {
+  font-size: 26px;
+}
+
 .sectionWrapper {
   display: -webkit-box;
   display: -ms-flexbox;

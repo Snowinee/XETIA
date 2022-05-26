@@ -38,4 +38,8 @@ header .navWrapper ul li a:hover {
   color: #404EED;
   font-size: 32px;
 }
+
+header .navWrapper ul li a:active {
+  font-size: 36px;
+}
 /*# sourceMappingURL=header.css.map */
