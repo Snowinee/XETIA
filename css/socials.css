@@ -1,5 +1,5 @@
 .socials {
-  height: 110vh;
+  height: 100vh;
   background-image: url(/images/socials.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -17,5 +17,118 @@
 
 .socials .socialsWrapper h4:hover {
   color: #404EED;
+}
+
+.socials .socialsWrapper .icons {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.socials .socialsWrapper .youtube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 300px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.socials .socialsWrapper .youtube .youtube1, .socials .socialsWrapper .youtube .youtube2 {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.socials .socialsWrapper .youtube .youtube1 p, .socials .socialsWrapper .youtube .youtube2 p {
+  color: white;
+  cursor: default;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #1c2694;
+  border-radius: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 36px;
+  left: 90px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  visibility: hidden;
+}
+
+.socials .socialsWrapper .youtube .youtube1:hover p, .socials .socialsWrapper .youtube .youtube2:hover p {
+  visibility: visible;
+}
+
+.socials .socialsWrapper .youtube .youtube2 {
+  margin-top: 35px;
+}
+
+.socials .socialsWrapper .instagram {
+  position: relative;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.socials .socialsWrapper .instagram p {
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: default;
+  background-color: #1c2694;
+  border-radius: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 36px;
+  left: 80px;
+  visibility: hidden;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.socials .socialsWrapper .instagram:hover p {
+  visibility: visible;
+}
+
+.socials .socialsWrapper .linktree {
+  position: relative;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.socials .socialsWrapper .linktree p {
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #1c2694;
+  border-radius: 30px;
+  font-weight: 600;
+  position: absolute;
+  cursor: default;
+  top: 60px;
+  visibility: hidden;
+  left: 60px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.socials .socialsWrapper .linktree:hover p {
+  visibility: visible;
 }
 /*# sourceMappingURL=socials.css.map */

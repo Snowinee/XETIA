@@ -1,5 +1,5 @@
 .socials {
-    height: 110vh;
+    height: 100vh;
     background-image: url(/images/socials.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -17,6 +17,109 @@
 
         h4:hover {
             color: #404EED;
+        }
+
+        .icons {
+            margin-top: 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .youtube {
+            display: flex;
+            max-width: 300px;
+            flex-direction: column;
+            // border: 1px solid white;
+
+            .youtube1, .youtube2 {
+                margin-bottom: 30px;
+                position: relative;
+                // border: 1px solid white;
+
+                p {
+                    color: white;
+                    cursor: default;
+                    font-size: 16px;
+                    padding: 10px 20px;
+                    background-color: #1c2694;
+                    border-radius: 30px;
+                    font-weight: 600;
+                    position: absolute;
+                    top: 36px;
+                    left: 90px;
+                    width: max-content;
+                    visibility: hidden;
+                }
+            }
+
+            .youtube1:hover, .youtube2:hover {
+
+                p {
+                    visibility: visible;
+                }
+            }
+
+            .youtube2 {
+                margin-top: 35px;
+            }
+        }
+
+        .instagram {
+            position: relative;
+            height: max-content;
+            // border: 1px solid white;
+
+            p {
+                color: white;
+                font-size: 16px;
+                padding: 10px 20px;
+                cursor: default;
+                background-color: #1c2694;
+                border-radius: 30px;
+                font-weight: 600;
+                position: absolute;
+                top: 36px;
+                left: 80px;
+                visibility: hidden;
+                width: max-content;
+                transition: all .5s;
+            }
+        }
+
+        .instagram:hover {
+
+            p {
+                visibility: visible;
+            }
+        }
+
+        .linktree {
+            position: relative;
+            height: max-content;
+            // border: 1px solid white;
+
+            p {
+                color: white;
+                font-size: 16px;
+                padding: 10px 20px;
+                background-color: #1c2694;
+                border-radius: 30px;
+                font-weight: 600;
+                position: absolute;
+                cursor: default;
+                top: 60px;
+                visibility: hidden;
+                left: 60px;
+                width: max-content;
+            }
+        }
+
+        .linktree:hover {
+
+            p {
+                visibility: visible;
+            }
         }
     }
 }
