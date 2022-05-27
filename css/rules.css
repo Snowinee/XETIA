@@ -1,8 +1,7 @@
 .rules {
-  background-color: red;
   width: 100%;
   padding: 0 0 20px 0;
-  background-image: url(/images/Rules.png);
+  background-image: url(../images/Rules.png);
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -48,5 +47,14 @@
 
 .rules .rulesWrapper .formatted {
   font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=rules.css.map */
