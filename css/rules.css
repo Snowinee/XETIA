@@ -1,8 +1,11 @@
 .rules {
+  background-color: red;
   width: 100%;
-  margin: 0;
-  background-image: url(../images/rules.png);
-  height: 110vh;
+  padding: 0 0 20px 0;
+  background-image: url(/images/Rules.png);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +18,6 @@
   margin: 60px 0 60px 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  cursor: default;
 }
 
 .rules .rulesWrapper h4:hover {
@@ -30,11 +32,8 @@
   background-color: rgba(35, 39, 42, 0.8);
   padding: 20px;
   width: 80%;
-  cursor: default;
   margin: 0 auto;
   border-radius: 20px;
-  max-height: 480px;
-  overflow: hidden;
 }
 
 .rules .rulesWrapper p {

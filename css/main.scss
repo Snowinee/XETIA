@@ -9,7 +9,7 @@ main {
 .mainWrapper {
     // border: 1px solid white;;
     text-align: center;
-    margin: 60px auto;
+    margin: 140px auto;
     display: flex;
     flex-direction: column;
 
@@ -21,7 +21,6 @@ main {
         font-weight: 400;
         font-size: 32px;
         font-weight: 400;
-        cursor: default;
         max-width: 550px;
 
         .formatted {
@@ -42,7 +41,7 @@ main {
         max-width: 250px;
         border-radius: 5px;
         color: white;
-        cursor: pointer;
+
         transition: all .5s;
     }
 
@@ -52,14 +51,12 @@ main {
         color: #404EED;
     }
 
-    .joinButton:active {
-        font-size: 26px;
-    }
-
 }
 
 .sectionWrapper {
     display: flex;
+    width: 100%;
+    overflow: hidden;
     flex-direction: column;
 
     // background-color: red;
@@ -67,10 +64,11 @@ main {
     .communitySection, .AdvertisementSection {
         
         text-align: center;
-        width: 700px;
+        // width: max-content;
+        // padding: 120px;
+        max-height: max-content;
         color: white;
         margin: 100px auto 0 auto;
-        cursor: default;
 
         .heading {
             // border: 1px solid white;
@@ -96,9 +94,10 @@ main {
             align-items: flex-start;
             justify-content: center;
             margin: 10px 20px;
+            padding: 10px 30px;
             background-color: #2C2F33;
             border-radius: 60px;
-            max-height: 100%;
+            max-height: max-content;
 
             .paragraphWrapper {
                 margin: 20px 0;
@@ -112,7 +111,7 @@ main {
         height: 500px;
 
         .paragraph {
-            height: 350px;
+            height: max-content;
         }
     }
 }
@@ -122,13 +121,5 @@ main {
         display: block;
         margin-bottom: 40px;
         
-    }
-
-    .AdvertisementSection {
-        margin-top: -160px;
-    }
-
-    hr {
-        visibility: hidden;
     }
 }

@@ -2,6 +2,8 @@ header {
     // background-color: black;
     padding: 20px;
     display: flex;
+    overflow: hidden;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
 
@@ -36,11 +38,22 @@ header {
                     color: #404EED;
                     font-size: 32px;
                 }
-
-                a:active {
-                    font-size: 36px;
-                }
             }
         }
     }
+}
+
+@media (max-width: 700px) {
+    header {
+        justify-content: space-between;
+        .navWrapper {
+            
+            ul {
+                // border: 1px solid white;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    
 }

@@ -15,7 +15,7 @@ main {
 
 .mainWrapper {
   text-align: center;
-  margin: 60px auto;
+  margin: 140px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,7 +32,6 @@ main {
   font-weight: 400;
   font-size: 32px;
   font-weight: 400;
-  cursor: default;
   max-width: 550px;
 }
 
@@ -51,7 +50,6 @@ main {
   max-width: 250px;
   border-radius: 5px;
   color: white;
-  cursor: pointer;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -63,14 +61,12 @@ main {
   color: #404EED;
 }
 
-.mainWrapper .joinButton:active {
-  font-size: 26px;
-}
-
 .sectionWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -79,10 +75,11 @@ main {
 
 .sectionWrapper .communitySection, .sectionWrapper .AdvertisementSection {
   text-align: center;
-  width: 700px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
   color: white;
   margin: 100px auto 0 auto;
-  cursor: default;
 }
 
 .sectionWrapper .communitySection .heading, .sectionWrapper .AdvertisementSection .heading {
@@ -122,9 +119,12 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 10px 20px;
+  padding: 10px 30px;
   background-color: #2C2F33;
   border-radius: 60px;
-  max-height: 100%;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
 }
 
 .sectionWrapper .communitySection .paragraph .paragraphWrapper, .sectionWrapper .AdvertisementSection .paragraph .paragraphWrapper {
@@ -137,19 +137,15 @@ main {
 }
 
 .sectionWrapper .AdvertisementSection .paragraph {
-  height: 350px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 @media (max-width: 800px) {
   .sectionWrapper {
     display: block;
     margin-bottom: 40px;
-  }
-  .AdvertisementSection {
-    margin-top: -160px;
-  }
-  hr {
-    visibility: hidden;
   }
 }
 /*# sourceMappingURL=main.css.map */
