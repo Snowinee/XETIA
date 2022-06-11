@@ -21,6 +21,29 @@ header .logoWrapper img {
   /* Makes logo fit container */
 }
 
+header .navWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navWrapper i {
+  z-index: 30;
+  color: white;
+  font-size: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  visibility: hidden;
+}
+
+header .navWrapper i:active {
+  font-size: 32px;
+  color: #404EED;
+}
+
 header .navWrapper ul li {
   display: inline-block;
   margin: 0 25px;
@@ -41,16 +64,53 @@ header .navWrapper ul li a:hover {
   font-size: 32px;
 }
 
+.showNavIcon {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: absolute;
+  background-color: rgba(46, 41, 41, 0.744);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 @media (max-width: 700px) {
+  #navList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  #nav:first-child {
+    margin-top: 250px;
+  }
   header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  header .navWrapper ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  header .navWrapper i {
+    visibility: visible;
+    margin-right: 60px;
+  }
+  header .navWrapper #navList {
+    display: none;
+    color: black;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

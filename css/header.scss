@@ -17,6 +17,21 @@ header {
     }
 
     .navWrapper {
+        display: flex;
+
+        i {
+            z-index: 30;
+            color: white;
+            font-size: 30px;
+            align-self: center;
+            transition: all 0.3s;
+            visibility: hidden;
+        }
+
+        i:active {
+            font-size: 32px;
+            color: #404EED;
+        }
 
         ul {
 
@@ -43,14 +58,45 @@ header {
     }
 }
 
+.showNavIcon {
+    display: flex !important;
+    position: absolute;
+    background-color: rgba(46, 41, 41, 0.744);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 @media (max-width: 700px) {
+
+    #navList {
+        display: flex;
+        align-items: center;
+    }
+    #nav {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    #nav:first-child {
+        margin-top: 250px;
+    }
+    
     header {
         justify-content: space-between;
+
         .navWrapper {
-            
-            ul {
-                // border: 1px solid white;
-                display: flex;
+            i {
+                visibility: visible;
+                margin-right: 60px;
+            }
+
+            #navList {
+                display: none;
+                color: black;
                 flex-direction: column;
             }
         }
